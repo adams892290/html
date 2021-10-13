@@ -1,0 +1,119 @@
+body.place-holder {
+  background: url(dist/plugins/youtube-video/images/placeholder.jpg);
+}
+.close2, .close {
+    float: right;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+	font-size: 1.5rem;opacity: .5;
+}
+.back{
+    float: left;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff; margin-right: 16px;font-size: 1.5rem;opacity: .5;
+	margin-top: 20px;
+}
+.title-2nd{float: left;}
+footer {
+  padding-top: 16px;
+  font-size: 10px;
+}
+.bg-custom {
+  background: rgba(0, 0, 0, .3)
+}
+#page_holder {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*    background:rgba(0,0,0,.5) url(https://popmenucloud.com/oaqvlbjh/e9e33b7c-90b7-4041-b830-2b9d30b5d29c.png);*/
+  vh: 100%;
+  height: 100%;
+  width: 100%;
+  color: #fff !important;
+  z-index: 99;
+}
+.bg {
+  background: rgba(0, 0, 0, .1) !important;
+}
+.background-video {
+  position: fixed;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-family: 'Lato', sans-serif;
+}
+.round_button {
+  font-size: 2.5rem;
+  background: #fff;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  /*    display: inline-block;*/
+  color: #333;
+  margin: 16px auto;
+  display: flex;
+  align-content: center;
+  text-decoration: none;
+}
+.round_button:hover {
+  text-decoration: none;
+}
+.round_button > i {
+  margin: auto;
+  text-decoration: none;
+}
+.round_button:hover > i {
+  margin: auto;
+  text-decoration: none;
+}
+.w2 label {
+  font-size: 15px;
+}
+.w2 i {
+  font-size: 25px;
+}
+.w4 span {
+  font-size: 20px;
+}
+.w4 p {
+  font-size: 15px;
+}
+.w1 #t1 {
+  font-size: 100px;
+  font-weight: 300;
+	line-height: 103px;
+}
+.w1 #t2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+.date_holder {
+  font-size: 40px;
+	   font-weight: 300;
+	  line-height: 60px;
+}
+#pop_open {
+  width: 50px;
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  z-index: 111;
+  outline: none;
+	border: 1px solid #fff;
+	padding: 10px;
+}
+#pop_open img {
+  width: 100%
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
